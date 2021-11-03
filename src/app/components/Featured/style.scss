@@ -1,0 +1,18 @@
+.featured {
+  &__title {
+    margin: 32px 0px 16px 0px;
+  }
+  &__products {
+    ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      flex-wrap: wrap;
+      grid-template-columns: repeat(5, 224px);
+      gap: 16px;
+    }
+    li {
+    }
+  }
+}
